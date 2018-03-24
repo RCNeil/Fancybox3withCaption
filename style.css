@@ -1,0 +1,100 @@
+/* Starter CSS by RCNEIL */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+	margin:0px; 
+	padding:0px;
+	font-family: 'Roboto', sans-serif;
+	background:#fff;
+	color:#454545;
+} 
+.container {
+	float:none; 
+	clear:both; 
+	margin:0px auto; 
+	padding:0px;
+	width:100%; 
+	height:auto; 	
+}
+.row {
+	float:none; clear:both; margin:0px auto; padding:0px; 
+	width:100%; height:auto; 
+	max-width:1080px; 
+}
+
+/*UNIVERSAL SPAN SELECTOR */
+div[class*='span'] {
+	float:left; 
+	margin:0px auto; 
+	padding:24px; 
+	height:auto;
+   	box-sizing: border-box;
+}
+.span5 { width:5%; }
+.span10 { width:10%; }
+.span15 { width:15%; }
+.span20 { width:20%; }
+.span25 { width:25%; }
+.span30 { width:30%; }
+.span33 { width:33%; }
+.span35 { width:35%; }
+.span40 { width:40%; }
+.span45 { width:45%; }
+.span50 { width:50%; }
+.span55 { width:55%; }
+.span60 { width:60%; }
+.span65 { width:65%; }
+.span66 { width:66%; }
+.span70 { width:70%; }
+.span75 { width:75%; }
+.span80 { width:80%; }
+.span85 { width:85%; }
+.span90 { width:90%; }
+.span100 { width:100%; }
+
+
+.text-center { text-align:center; }
+
+.container.flex-container.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container a {
+    flex: 0 0 25%;
+	box-sizing:border-box;
+    padding: 12px;
+}
+
+.gallery-container img {
+	display:block;
+	width:100%;
+	height:auto;
+	max-width:100%;
+}
+
+.fancybox-caption-wrap {
+    padding: 64px 12vw;
+	transition:opacity .25s,visibility 0s, bottom 1s !important;
+	bottom:-100vh;
+}
+
+.fancybox-caption-wrap.toggled {
+	bottom:0;
+}
+
+.fancybox-caption {
+	font-size:24px;
+	line-height:32px;
+	text-align:center;
+}
+
+
+button.fancybox-button.fancybox-button--toggleCaption {
+    width: auto;
+}
+
+
